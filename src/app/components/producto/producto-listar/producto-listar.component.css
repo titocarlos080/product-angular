@@ -1,0 +1,67 @@
+.container {
+    margin: 20px auto;
+    text-align: center;
+   }
+  
+  .form-card {
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .mat-form-field {
+    width: 100%;
+    margin-bottom: 15px; /* Agrega espacio entre los campos de entrada */
+  }
+  
+  .mat-card {
+    padding: 20px; /* Agrega espacio dentro de la tarjeta */
+  }
+  
+  
+  /* Resto de los estilos CSS existentes... */
+  
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .form-card {
+    margin-bottom: 20px;
+  }
+  
+  .table-card {
+    padding: 20px;
+  }
+  
+  table {
+    width: 100%;
+  }
+  
+ 
+  .mat-form-field {
+    width: 100%;
+    margin-bottom: 15px; /* Aumentar el espacio entre los campos */
+  }
+  
+  @media (max-width: 600px) {
+    .mat-form-field {
+      width: calc(100% - 24px);
+    }
+  }
+  
+  .mat-raised-button {
+    margin-right: 10px;
+  }
+  
+  .mat-icon-button {
+    margin: 0 5px;
+  }
+  
+  @media (max-width: 600px) {
+    .mat-form-field {
+      width: calc(100% - 24px);
+    }
+  }
+  
